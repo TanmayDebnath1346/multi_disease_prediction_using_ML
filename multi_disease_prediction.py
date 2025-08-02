@@ -11,9 +11,9 @@ import streamlit as st
 from streamlit_option_menu import option_menu
 
 #loadint he saved model
-loaded_model_diabetic_disease = pickle.load(open('T:/vs code/Machine Learning/video 5/multi_disease_prediction web app/trained_model_diabetic_disease.sav', 'rb'))
-loaded_model_heart_disease = pickle.load(open('T:/vs code/Machine Learning/video 5/multi_disease_prediction web app/trained_model_heart_disease.sav', 'rb'))
-loaded_model_parkinsons_disease = pickle.load(open('T:/vs code/Machine Learning/video 5/multi_disease_prediction web app/trained_model_parkinsons_disease.sav', 'rb'))
+loaded_model_diabetic_disease = pickle.load(open('trained_model_diabetic_disease.sav', 'rb'))
+loaded_model_heart_disease = pickle.load(open('trained_model_heart_disease.sav', 'rb'))
+loaded_model_parkinsons_disease = pickle.load(open('trained_model_parkinsons_disease.sav', 'rb'))
 
 
 
@@ -245,4 +245,5 @@ if (selected=='Parkinsons  Prediction') :
 
 
     
+
     
